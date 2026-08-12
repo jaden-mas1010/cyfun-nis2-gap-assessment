@@ -1,0 +1,17 @@
+# Logging Sample
+# Evidence of Missing Logging & Monitoring Controls
+
+System Log Extract:
+Aug 12 17:22:11 server01 sshd[1023]: Accepted password for user1 from 192.168.1.100 port 51432 ssh2
+Aug 12 17:22:11 server01 sshd[1023]: pam_unix(sshd:session): session opened for user user1
+
+Issues Identified:
+- No failed login attempts logged
+- No privilege escalation logs
+- No application logs present
+- No centralised log aggregation
+- No log retention policy
+
+NIS2 Impact:
+- Violates Article 21 (logging & monitoring)
+- No visibility into security events
