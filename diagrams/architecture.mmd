@@ -1,0 +1,43 @@
+flowchart TD
+
+    A[Organisation] --> B[Governance & Accountability]
+    A --> C[Risk Management]
+    A --> D[Technical Controls]
+    A --> E[Incident Response]
+    A --> F[Supply Chain Security]
+
+    D --> G[Logging & Monitoring]
+    D --> H[Vulnerability Management]
+    D --> I[Access Control]
+
+    E --> J[Detection]
+    E --> K[Response]
+    E --> L[Reporting]
+
+    F --> M[Vendor Assessment]
+    F --> N[Contractual Requirements]
+
+    subgraph Governance
+        B
+    end
+
+    subgraph Risk
+        C
+    end
+
+    subgraph Technical
+        G
+        H
+        I
+    end
+
+    subgraph IncidentResponse
+        J
+        K
+        L
+    end
+
+    subgraph SupplyChain
+        M
+        N
+    end
