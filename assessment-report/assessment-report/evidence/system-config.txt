@@ -1,0 +1,19 @@
+# System Configuration Summary
+# NIS2 Gap Assessment Evidence
+# Date: 12 August 2026
+
+Operating System: Ubuntu Server 20.04 LTS
+Kernel Version: 5.4.0-197-generic
+
+Key Observations:
+- No centralised logging configured
+- SSH allows password authentication
+- Firewall (UFW) disabled by default
+- No intrusion detection system installed
+- No file integrity monitoring configured
+
+Security Gaps:
+- Missing baseline hardening
+- No audit logging
+- No access control enforcement
+- No vulnerability management tooling
