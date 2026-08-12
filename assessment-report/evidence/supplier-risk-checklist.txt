@@ -1,0 +1,17 @@
+# Supplier Risk Checklist
+# Evidence of Missing Supply Chain Security Controls
+
+Vendor: CloudHost Ltd.
+Service: Infrastructure Hosting
+
+Assessment Findings:
+- No security questionnaire completed
+- No SOC 2 or ISO 27001 certification provided
+- No contractual security requirements
+- No incident reporting obligations defined
+- No SLA for security events
+- No monitoring of vendor security posture
+
+NIS2 Impact:
+- Violates Article 26 (supply chain security)
+- High exposure to third-party compromise
