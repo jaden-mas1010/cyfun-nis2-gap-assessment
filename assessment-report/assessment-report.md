@@ -71,7 +71,7 @@ flowchart TD
     F --> M[Vendor Assessment]
     F --> N[Contractual Requirements]
 ```
-5. Detailed Gap Analysis
+#5. Detailed Gap Analysis
 5.1 Governance & Accountability (Article 20)
 Gap: No defined cybersecurity roles or responsibilities.
 Impact: Lack of accountability for security failures.
